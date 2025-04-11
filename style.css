@@ -22,32 +22,6 @@ header {
   letter-spacing: 2px;
 }
 
-.header-icons .icon {
-  color: #111;
-  margin-left: 20px;
-  font-size: 1.5em;
-  transition: color 0.3s;
-}
-
-.header-icons .icon:hover {
-  color: #ccc;
-}
-
-.intro {
-  text-align: center;
-  padding: 40px 20px;
-}
-
-.intro h1 {
-  font-size: 3em;
-  margin-bottom: 10px;
-}
-
-.intro p {
-  font-size: 1.2em;
-  color: #aaa;
-}
-
 
 .photo-grid {
   display: grid;
@@ -77,40 +51,8 @@ header {
   }
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 25px;
-  padding: 40px;
-  justify-items: center;
-}
 
-.caption {
-  text-align: center;
-  margin-top: 10px;
-  color: #000;
-  font-size: 0.9em;
-  font-family: BargemoRegular-3lrGz;
-}
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .grid-container img {
-      width: 100%;
-      height: auto;
-      display: block;
-      border-radius: 8px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-    }
-
-    .grid-container img:hover {
-      transform: scale(1.03);
-    }
-
+   
     /* Footer styling */
     footer {
       display: flex;
@@ -139,7 +81,4 @@ header {
     }
 
 
-.socialMedia
-{
- align: right;
-}
+
