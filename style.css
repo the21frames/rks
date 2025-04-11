@@ -15,9 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  //border-bottom: 1px solid #333;
-  background-color: #fff;
-}
+  }
 
 .logo {
   font-size: 2em;
