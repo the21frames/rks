@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Blanka';
+  font-family: 'BasheqVintageDemoVersionRegular-gwpmE';
   src: url('fonts/Blanka.otf') format('opentype');
 }
 
 body {
   margin: 0;
-  font-family: 'Blanka', sans-serif;
+  font-family: 'BasheqVintageDemoVersionRegular-gwpmE', sans-serif;
   background-color: #fff;
   color: #fff;
 }
