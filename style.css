@@ -55,9 +55,9 @@ header {
   transition: transform 0.3s ease;
 }
 
-.photo-grid img:hover {
+/*.photo-grid img:hover {
   transform: scale(1.03);
-}
+} */
 
 /* For portrait images */
 .photo-grid img.portrait {
