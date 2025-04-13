@@ -59,6 +59,18 @@ header {
   transform: scale(1.03);
 }
 
+/* For portrait images */
+.photo-grid img.portrait {
+  height: 400px; /* Taller images */
+  object-fit: cover;
+}
+
+/* For landscape images */
+.photo-grid img.landscape {
+  height: 300px; /* Shorter images */
+  object-fit: cover;
+}
+
 /* Footer styling — moved outside media query */
 footer {
   display: flex;
