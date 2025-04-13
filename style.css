@@ -62,7 +62,7 @@ header {
 /* For portrait images */
 .photo-grid img.portrait {
   height: 400px; /* Taller images */
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* For landscape images */
