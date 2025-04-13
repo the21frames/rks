@@ -8,11 +8,6 @@
   src: url('fonts/Blanka-Regular.otf') format('opentype');
 }
 
-header, header * {
-  font-family: 'Blanka-Regular', serif;
-   font-size:xx-large
-}
-
 body {
   margin: 0;
   font-family: 'BasheqVintageDemoVersionRegular-gwpmE', sans-serif;
@@ -20,16 +15,17 @@ body {
   color: #111;
 }
 
-
-
-
+header, header * {
+  font-family: 'Blanka-Regular', serif;
+  font-size: xx-large;
+}
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  }
+}
 
 .photo-grid {
   display: grid;
@@ -52,6 +48,33 @@ header {
   transform: scale(1.03);
 }
 
+/* Footer styling — moved outside media query */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.footer-left {
+  font-size: 1em;
+  color: #333;
+}
+
+.footer-right a {
+  margin-left: 20px;
+  font-size: 1.3em;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+  color: #000;
+}
+
 /* Responsive: Stack columns on small screens */
 @media (max-width: 768px) {
   .photo-grid {
@@ -59,39 +82,9 @@ header {
   }
 }
 
+/* Optional: bigger font for header on laptop */
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
- header, header * {
-  font-family: 'Blanka-Regular', serif;
-  font-size:xxx-large
+  header, header * {
+    font-size: xxx-large;
+  }
 }
-
-   
-    /* Footer styling */
-    footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 40px;
-      background-color: #fff;
-      border-top: 1px solid #ccc;
-    }
-
-    .footer-left {
-      font-size: 1em;
-      color: #333;
-    }
-
-    .footer-right a {
-      margin-left: 20px;
-      font-size: 1.3em;
-      color: #333;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    .footer-right a:hover {
-      color: #000;
-    }
-
-
-
