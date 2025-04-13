@@ -57,19 +57,19 @@ header {
 
 /*.photo-grid img:hover {
   transform: scale(1.03);
-} */
+} 
 
-/* For portrait images */
+
 .photo-grid img.portrait {
-  height: 400px; /* Taller images */
+  height: 400px; 
   object-fit: contain;
 }
 
-/* For landscape images */
+
 .photo-grid img.landscape {
-  height: 300px; /* Shorter images */
+  height: 300px; 
   object-fit: cover;
-}
+} */
 
 /* Footer styling — moved outside media query */
 footer {
