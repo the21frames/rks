@@ -8,6 +8,11 @@
   src: url('fonts/Blanka-Regular.otf') format('opentype');
 }
 
+header, header * {
+  font-family: 'Blanka-Regular', serif;
+   font-size:xx-large
+}
+
 body {
   margin: 0;
   font-family: 'BasheqVintageDemoVersionRegular-gwpmE', sans-serif;
@@ -15,15 +20,9 @@ body {
   color: #111;
 }
 
-header, header * {
-  font-family: 'Blanka-Regular', serif;
-  
-}
 
-.logo {
-  font-size:xx-large
-  letter-spacing: 2px;
-}
+
+
 
 header {
   display: flex;
