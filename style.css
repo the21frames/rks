@@ -27,6 +27,17 @@ header {
   padding: 20px 40px;
 }
 
+.logo-text {
+  font-family: 'Blanka-Regular', serif;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.logo-image img {
+  height: 60px; /* adjust based on your logo's dimensions */
+  width: auto;
+}
+
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
