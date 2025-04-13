@@ -8,9 +8,7 @@
   src: url('fonts/Blanka-Regular.otf') format('opentype');
 }
 
-.font-oflogo {
-      font-family: 'Blanka-Regular', sans-serif;
-    }
+
 
 
 body {
@@ -19,6 +17,10 @@ body {
   background-color: #fff;
   color: #111;
 }
+
+.font-oflogo {
+      font-family: 'Blanka-Regular', sans-serif;
+    }
 
 header {
   display: flex;
