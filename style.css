@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Blanka-Regular';
-  src: url('fonts/Blanka-Regular.otf') format('truetype');
+  src: url('fonts/Blanka-Regular.otf') format('opentype');
 }
 
 .font-oflogo {
